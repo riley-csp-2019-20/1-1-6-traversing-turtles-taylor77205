@@ -11,6 +11,8 @@ turtle_colors = ["red", "blue", "green", "orange", "purple", "gold"]
 
 for s in turtle_shapes:
   turtle = trtl.Turtle(shape=s)
+  new_color=turtle_color.pop()
+  turtle.color(new_color)
   my_turtles.append(turtle)
 
 #  sarting position 
